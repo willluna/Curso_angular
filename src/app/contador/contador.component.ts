@@ -14,8 +14,13 @@ export class ContadorComponent implements OnInit {
 
   }
 
-  persona:persona = {
-    nombre: 'William Luna',
-    edad: 32
+  numero: number = 1;
+
+  decrementar() {
+    this.numero--;
+  }
+
+  incrementar() {
+    this.numero += 1;
   }
 }
