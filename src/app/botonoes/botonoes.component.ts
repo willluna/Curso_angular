@@ -12,8 +12,7 @@ export class BotonoesComponent implements OnInit {
     ngOnInit(): void {
     }
 
-    text_color:string = '';
 
-    button_disabled:boolean = false;
+    src:string = "https://images.pexels.com/photos/19165526/pexels-photo-19165526/free-photo-of-cafeina-cafe-taza-capuchino.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load";
 
 }
