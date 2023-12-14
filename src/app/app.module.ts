@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContadorComponent } from './contador/contador.component';
 import { BotonoesComponent } from './botonoes/botonoes.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 
 
@@ -13,6 +14,7 @@ import { BotonoesComponent } from './botonoes/botonoes.component';
     AppComponent,
     ContadorComponent,
     BotonoesComponent,
+    FormularioComponent,
   ],
   imports: [
     BrowserModule,
