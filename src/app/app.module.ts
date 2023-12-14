@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ContadorComponent } from './contador/contador.component';
 import { BotonoesComponent } from './botonoes/botonoes.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { BuclesComponent } from './bucles/bucles.component';
 
 
 
@@ -15,6 +16,7 @@ import { FormularioComponent } from './formulario/formulario.component';
     ContadorComponent,
     BotonoesComponent,
     FormularioComponent,
+    BuclesComponent,
   ],
   imports: [
     BrowserModule,
