@@ -7,6 +7,7 @@ import { ContadorComponent } from './contador/contador.component';
 import { BotonoesComponent } from './botonoes/botonoes.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { BuclesComponent } from './bucles/bucles.component';
+import { SwitchComponent } from './switch/switch.component';
 
 
 
@@ -17,6 +18,7 @@ import { BuclesComponent } from './bucles/bucles.component';
     BotonoesComponent,
     FormularioComponent,
     BuclesComponent,
+    SwitchComponent,
   ],
   imports: [
     BrowserModule,
