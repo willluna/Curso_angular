@@ -1,6 +1,4 @@
-<p>children works!</p>
+<h2>Componente Hijo</h2>
 
-{{ title }}
-
-<input type="text" class="form-control" [(ngModel)]="title">
+<input type="text" class="form-control" (keyup)="emitTitleChange()" [(ngModel)]="title">
 
